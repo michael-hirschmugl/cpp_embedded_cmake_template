@@ -3,7 +3,9 @@ A template project for C++ on an STM32 microcontroller.
 
 ## How to use
 `cd cmake-build-debug`
+
 `cmake -DCMAKE_TOOLCHAIN_FILE=../arm-none-eabi-gcc.cmake -DCMAKE_BUILD_TYPE=Debug ..`
+
 `make`
 
 ## How to flash
